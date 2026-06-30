@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Config containing personal details / passwords
+config.json
+
+# Excel files
+*.xlsx
+
+# Local criteria backups
+*kriterleri.txt

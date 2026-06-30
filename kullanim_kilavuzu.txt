@@ -1,0 +1,60 @@
+==========================================================================
+              e-Okul Not Çekici & Ölçek Dağıtıcı Kullanım Kılavuzu
+==========================================================================
+
+Bu uygulama, e-Okul Hızlı Not Girişi ekranındaki performans veya proje notlarını
+çekerek, resmî MEB şablonuna uygun yatay ve tek sayfaya sığdırılmış bir ölçek
+Excel belgesi oluşturur.
+
+--------------------------------------------------------------------------
+Kullanım Adımları:
+--------------------------------------------------------------------------
+1. Uygulamayı çalıştırın (eOkul_Not_Cekici.exe dosyasına çift tıklayın).
+
+2. Uygulama arayüzündeki gerekli alanları doldurun:
+   - Öğretmen Adı Soyadı
+   - Öğretmen Branşı
+   - Okul Müdürü Adı Soyadı
+   * (Bu bilgiler bir sonraki açılışta otomatik hatırlanacaktır).
+
+3. Seçenekleri belirleyin:
+   - Değerlendirme Tipi: Performans Notları mı yoksa Proje Notları mı çekilecek?
+   - Excel Kayıt Dosyası: "Gözat..." butonuna tıklayıp dosyanın kaydedileceği 
+     konumu (örneğin Masaüstü) seçin ve dosyaya bir isim verip kaydedin.
+
+4. "1. Tarayıcıyı Aç ve e-Okul'a Git" butonuna basın. 
+   - Ayrı bir Google Chrome tarayıcı penceresi açılacaktır.
+
+5. Açılan Chrome penceresinde e-Okul şifreniz veya MEBBİS girişiniz ile giriş yapın.
+   - Sol menüden sırasıyla:
+     Kurum İşlemleri -> Not İşlemleri -> Hızlı Not Girişi
+     (veya Ders Notu Girişi) ekranına gidin.
+   * ÖNEMLİ: e-Okul'daki sınıf listeleme ekranına ulaştığınızda başka hiçbir işlem
+     yapmanıza gerek yoktur. Sınıf veya ders seçmeyin, sadece o sayfaya gidin.
+
+6. Uygulama arayüzüne geri dönün ve aktifleşen "2. Verileri Çek ve Excel Üret"
+   butonuna tıklayın.
+   - Uygulama, e-Okul'da sorumlu olduğunuz tüm sınıf ve dersleri sırayla gezecek,
+     notları okuyacak ve arka planda Excel belgesine işleyecektir.
+   - İşlem log ekranında "[BAŞARILI] Excel belgesi başarıyla oluşturuldu!" yazısı
+     ve onay kutusu göründüğünde süreç tamamlanmış demektir.
+
+--------------------------------------------------------------------------
+Ölçek Kriterlerini Değiştirme (Özelleştirme):
+--------------------------------------------------------------------------
+Uygulamayı ilk kez çalıştırdığınızda, programın bulunduğu klasörde otomatik olarak
+iki adet metin dosyası oluşturulacaktır:
+1. performans_kriterleri.txt (Performans ölçeği için 20 kriter)
+2. proje_kriterleri.txt (Proje ölçeği için 20 kriter)
+
+Eğer bu kriterleri kendinize veya zümrenize göre değiştirmek isterseniz:
+- Programın yanındaki bu metin (.txt) dosyalarını açın.
+- Her satıra bir kriter gelecek şekilde kendi kriterlerinizi yazın ve kaydedin.
+- Programı tekrar çalıştırdığınızda, Excel sütunları ve formüller yazdığınız yeni
+  kriter sayısına göre dinamik olarak kendini ayarlayacak ve notları buna göre
+  dağıtacaktır.
+
+==========================================================================
+Tasarım: Antigravity AI
+İyi çalışmalar dileriz!
+==========================================================================
